@@ -1,0 +1,35 @@
+{
+    "menu": {
+        "detail": {
+            "buttons": [
+                "__APPEND__",
+                {
+                    "label": "to Word",
+                    "name": "someName",
+                    "action": "someName",
+                    "style": "primary",
+                    "acl": "edit",
+                    "aclScope": "Opportunity",
+                    "data": {
+                        "handler": "custom:ToWord"
+                    },
+                    "initFunction": "initSomeName"
+                }
+            ],
+            "dropdown": [
+                  {
+                      "label": "Template1",
+                      "link": "javascript:localStorage.setItem('template', 1);",
+                      "acl": "read",
+                      "aclScope": "Template1"                  
+                  },
+                  {
+                      "label": "Template2",
+                      "link": "javascript:localStorage.setItem('template', 2);",
+                      "acl": "read",
+                      "aclScope": "Template2"      
+                  }
+            ]
+        }
+    }
+}

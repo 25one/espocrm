@@ -1,0 +1,11 @@
+{
+    "fields": {
+        "address": "Address",
+        "addressStreet": "Address Street",
+        "addressCity": "Address City",
+        "addressState": "Address State",
+        "addressCountry": "Address Country",
+        "addressPostalCode": "Address Postal Code",
+        "addressMap": "Address Map"
+    }
+}

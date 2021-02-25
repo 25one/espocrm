@@ -1,0 +1,9 @@
+{
+    "fields": {
+        "uistage": {
+            "type": "uistage",
+            "isCustom": true,
+            "view": "custom:views/opportunity/fields/uistage"
+        }
+    }
+}

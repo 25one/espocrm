@@ -1,0 +1,15 @@
+.uistage-loader {
+   width: 15px;
+   height: 10px; 
+   /*background-color: lightgray;*/ 
+   float: left; 
+   margin: 1px;
+}
+
+.uistage-loader-lightgray {
+   background-color: lightgray; 
+}
+
+.uistage-loader-gold {
+   background-color: gold; 
+}
